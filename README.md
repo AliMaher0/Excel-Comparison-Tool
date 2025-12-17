@@ -46,4 +46,8 @@ If you want to run the source code directly:
 3. Run the application:
    ```bash
    pip install pandas openpyxl   
-   
+
+## 🏗️ Building the Executabl
+   ```bash
+   pip install pyinstaller
+   pyinstaller --onefile --windowed excel_comparer_gui.py
